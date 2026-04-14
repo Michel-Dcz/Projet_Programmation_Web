@@ -5,6 +5,7 @@
     <title>À propos</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
     <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
     <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="../js/chatbot.js" defer></script>   
 </head><!-- Fin de la balise d'entête -->
 
 <body><!-- Début du code de la page web -->
@@ -18,7 +19,17 @@
             <a href="planning.html">Planning</a>
         </nav>
     </header>
-
+    <button id="chat-button" class="bouton-fixe"><img src="../media/Chat_bot.png" alt="chat_bot" width=125px></button>
+    <div id="chat-sidebar" class="chat-sidebar">
+        <div class="chat-header">
+            <span>Support</span>
+        </div>
+        <div class="chat-content">
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="user-input" placeholder="Posez votre question ...">
+        </div>
+    </div>
     <footer>
         <a href="apropos.html">À propos</a>
     </footer>

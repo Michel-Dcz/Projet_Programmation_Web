@@ -1,85 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   cursor: default;
 }
 
 
 header {
-    background-color: rgb(22, 55, 103);
-    margin: -10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgb(22, 55, 103);
+  margin: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header nav{
-    width: 800px;
-    display: flex;
-    font-size: 1.2em;
+header nav {
+  width: 800px;
+  display: flex;
+  font-size: 1.2em;
 }
 
 header nav a {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 28.765px 40px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 28.765px 40px;
 }
 
 header nav a:hover {
-    background-color: #0e2444;
+  background-color: #0e2444;
 }
 
 footer {
-    background-color: rgb(22, 55, 103);
-    margin: -10px;
-    padding: 20px;
-    text-align: center;
+  background-color: rgb(22, 55, 103);
+  margin: -10px;
+  padding: 20px;
+  text-align: center;
 }
 
 footer a {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 20px 30px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px 30px;
 }
 
 footer a:hover {
-    background-color: #0e2444;
+  background-color: #0e2444;
 }
 
 #presentation {
-    background-color: rgba(231, 231, 231, 0.534);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: rgba(231, 231, 231, 0.534);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-#presentation:not(h1, h2){
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
+#presentation:not(h1, h2) {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
 }
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 2.5em;
-    margin-top:30px;
-    margin-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    font-size: 2em;
-    margin-top:20px;
-    margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 #enseignants {
-    margin-top: 50px;
+  margin-top: 50px;
   margin-left: 25px;
 }
 
@@ -101,10 +105,12 @@ h2 {
 }
 
 #impaire {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -119,22 +125,26 @@ h2 {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
-  top: 0; /* Aligné en haut */
-  height: 100%; /* Prend toute la hauteur du parent (.slideshow-container) */
+  top: 0;
+  /* Aligné en haut */
+  height: 100%;
+  /* Prend toute la hauteur du parent (.slideshow-container) */
   width: auto;
-  padding: 16px; /* Ton padding latéral souhaité */
+  padding: 16px;
+  /* Ton padding latéral souhaité */
   color: rgb(22, 55, 103);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
   user-select: none;
-  
+
   /* Pour centrer verticalement le symbole < ou > à l'intérieur du grand rectangle */
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
@@ -145,7 +155,8 @@ h2 {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: rgba(0, 0, 0, 0.445);
   color: white
 }
@@ -162,7 +173,8 @@ h2 {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -173,35 +185,43 @@ h2 {
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 #point {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .classcours {
-  margin : 40px 40px 20px;
+  margin: 30px 30px 20px;
   display: grid;
+  background-color: rgb(248, 248, 248);
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .classcontenant {
-  margin : 10px;
-  display : flex;
-  border : 1px solid rgb(184, 179, 179);
+  margin: 10px;
+  display: flex;
+  border: 1px solid rgb(184, 179, 179);
   height: 120px;
 }
 
 .classinfo {
-  display : flex;
+  display: flex;
   width: 100%;
   background-color: aquamarine;
   flex-direction: column;
 }
 
-.classinfo > div {
-  display : flex;
+.classinfo>div {
+  display: flex;
   align-items: center;
   height: 40px;
 }
@@ -220,26 +240,158 @@ h2 {
   background-color: #f2f2f2;
 }
 
-.classnomcours{
+.classnomcours {
   background-color: #e7e7e7;
 }
 
-.classprof{
+.classprof {
   background-color: #d3d3d3;
 }
 
-.liencours{
+.liencours {
   text-decoration: none;
-  color : rgb(22, 55, 103);
+  color: rgb(22, 55, 103);
   font-family: 'Quicksand', sans-serif;
   padding-left: 30px;
   font-weight: 700;
   cursor: pointer;
 }
 
-.textcours{
-  color : rgb(22, 55, 103);
+.textcours {
+  color: rgb(22, 55, 103);
   font-family: 'Quicksand', sans-serif;
   padding-left: 30px;
   font-weight: 700;
+}
+
+.etudiant {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.etudiant p {
+  font-size: 1.2em;
+}
+
+.bouton-fixe {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --decalage: 0px;
+    transform: translateX(var(--decalage)) scale(1);
+}
+
+.bouton-fixe:hover {
+  transform: translateX(var(--decalage)) scale(1.2);
+}
+
+.bouton-fixe.active {
+    --decalage: -370px;
+}
+
+.bouton-fixe img {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bouton-fixe.active img {
+    transform: scaleX(-1); 
+}
+
+.chat-sidebar {
+  position: fixed;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  box-shadow: -5px 0 25px rgba(0, 0, 0, 0.1);
+  z-index: 2000;
+  overflow: hidden;
+
+  /* --- LOGIQUE D'ANIMATION --- */
+  /* On décale la boîte de toute sa largeur + sa marge (100% + 20px) vers la droite */
+  transform: translateX(calc(100% + 20px));
+  /* On définit la fluidité du mouvement */
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Quand cette classe sera ajoutée (via JS plus tard), le panneau glissera vers la gauche */
+.chat-sidebar.active {
+  transform: translateX(0);
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  /* Petite ligne de séparation */
+}
+
+.chat-header span {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: rgb(22, 55, 103);
+}
+
+.close-btn {
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.close-btn:hover {
+  background-color: rgb(196, 191, 191);
+}
+
+.chat-footer {
+  padding: 15px;
+  background-color: white;
+  border-top: 1px solid #eee;
+  /* Petite ligne de séparation */
+}
+
+.chat-content {
+  flex-grow: 1;
+  /* Dit à cet élément de prendre TOUT l'espace restant */
+  overflow-y: auto;
+  /* Permet de scroller si les messages sont longs */
+}
+
+#user-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  /* Pour garder le look arrondi */
+  outline: none;
+  /* Enlève la bordure bleue par défaut au clic */
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  /* Très important pour que le padding ne dépasse pas de la largeur */
+}
+
+#user-input:focus {
+  border-color: #007bff;
+  /* Change de couleur quand on écrit dedans */
 }
