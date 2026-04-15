@@ -374,6 +374,7 @@ h2 {
   flex-grow: 1;
   /* Dit à cet élément de prendre TOUT l'espace restant */
   overflow-y: auto;
+  overflow-x: hidden;
   /* Permet de scroller si les messages sont longs */
   display: flex;
   flex-direction: column;
