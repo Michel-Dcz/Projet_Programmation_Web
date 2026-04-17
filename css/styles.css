@@ -54,10 +54,10 @@ footer a:hover {
 
 #presentation {
   background-color: rgba(231, 231, 231, 0.534);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 60px 40px 60px 40px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 50px;
+  text-align: center;
 }
 
 #presentation:not(h1, h2) {
@@ -70,7 +70,7 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -202,8 +202,8 @@ h2 {
   margin: 30px 30px 20px;
   display: grid;
   background-color: rgb(248, 248, 248);
-  border-radius: 15px;
-  padding: 10px;
+  border-radius: 50px;
+  padding: 20px;
 }
 
 .classcontenant {
@@ -211,7 +211,21 @@ h2 {
   display: flex;
   border: 1px solid rgb(184, 179, 179);
   height: 120px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
 }
+
+
+.classcontenant.animation-show {
+  opacity: 1;
+  transform: none;
+}
+
+.classcontenant.fade-up {
+  transform: translateY(-40px);
+}
+
 
 .classinfo {
   display: flex;
@@ -489,3 +503,66 @@ h2 {
 .userquestion .tail {
   display: none;
 }
+
+table, th, td, caption{
+  font-family: 'Quicksand', sans-serif;
+  border: 2px solid black;
+  border-collapse: collapse;
+    padding: 10px;
+}
+
+caption {
+  font-size: 35px;
+  text-align: left;
+  color: white;
+}
+
+.divtable {
+  margin: 30px 10px 20px 10px;
+  display: grid;
+  background-color: rgb(248, 248, 248);
+  border-radius: 50px;
+  padding: 40px;
+}
+
+tr {
+  height: 30px;
+}
+
+.tr_pair {
+  background-color: white;
+}
+
+.tr_impairS1 {
+  background-color:rgb(90, 174, 97);
+}
+
+.tr_impairS2 {
+  background-color: #65aefc;
+}
+
+.captionS1 {
+  background-color: green;
+}
+
+.captionS2 {
+  background-color: #173c72;
+}
+
+th {
+  color: white;
+  cursor: pointer;
+}
+
+.thS1 {
+  background-color: rgb(49, 172, 49);
+}
+
+.thS2 {
+  background-color: #275498;
+}
+
+td {
+  text-align: center;
+}
+

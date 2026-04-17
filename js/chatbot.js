@@ -40,3 +40,14 @@ function response(input) {
         div.appendChild(p);
         chatcontent.appendChild(div);
 }
+
+document.addEventListener('click', (event) => {
+    if (
+        sidebar.classList.contains('active') &&
+        !sidebar.contains(event.target) &&
+        !chatBtn.contains(event.target)
+    ) {
+        sidebar.classList.remove('active');
+        chatBtn.classList.remove('active');
+    }
+});

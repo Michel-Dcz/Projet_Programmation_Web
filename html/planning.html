@@ -2,10 +2,12 @@
 <html lang="fr"> <!-- Précision de la langue pour le navigateur-->
 
 <head> <!-- Entête du document HTML -->
-    <title>À propos</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
+    <title>Planning</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
     <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
     <link rel="stylesheet" href="../css/styles.css">
     <script type="text/javascript" src="../js/chatbot.js" defer></script>   
+    <script type="text/javascript" src="../js/tablesortS1.js" defer></script>  
+    <script type="text/javascript" src="../js/tablesortS2.js" defer></script> 
 </head><!-- Fin de la balise d'entête -->
 
 <body><!-- Début du code de la page web -->
@@ -30,6 +32,197 @@
             <input type="text" id="user-input" placeholder="Posez votre question ...">
         </div>
     </div>
+    <main>
+        <section>
+            <div>
+                <div>
+                    <br><br>
+                    <h1>Planning des permanances d'informatique</h1>
+                    <br>
+                    <div class="divtable">
+                        <table class="tableS1">
+                            <caption class="captionS1">
+                                Planning des permances S1
+                            </caption>
+                            <tr class="thS1">
+                                <th onclick="sortTableS1(0)">Semaine</th>
+                                <th onclick="sortTableS1(1)">Date</th>
+                                <th onclick="sortTableS1(2)">De</th>
+                                <th onclick="sortTableS1(3)">À</th>
+                                <th onclick="sortTableS1(4)">Enseignant</th>
+                                <th onclick="sortTableS1(5)">Module concerné</th>
+                                <th onclick="sortTableS1(6)">Salle</th>
+                            </tr>
+                            <tr class="tr_impairS1">
+                                <td>a</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>h</td>
+                            </tr>
+                            <tr class="tr_impairS1">
+                                <td>b</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>g</td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td>c</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>f</td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td>d</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>e</td>
+                            </tr>
+                            <tr class="tr_impairS1">
+                                <td>e</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>d</td>
+                            </tr>
+                            <tr class="tr_impairS1">
+                                <td>f</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>c</td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td>g</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>b</td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td>h</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>a</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                    <div class="divtable">
+                        <table class="tableS2">
+                            <caption class="captionS2">
+                                Planning des permances S2
+                            </caption>
+                            <tr class="thS2">
+                                <th onclick="sortTableS2(0)">Semaine</th>
+                                <th onclick="sortTableS2(1)">Date</th>
+                                <th onclick="sortTableS2(2)">De</th>
+                                <th onclick="sortTableS2(3)">À</th>
+                                <th onclick="sortTableS2(4)">Enseignant</th>
+                                <th onclick="sortTableS2(5)">Module concerné</th>
+                                <th onclick="sortTableS2(6)">Salle</th>
+                            </tr>
+                            <tr class="tr_impairS2">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_impairS2">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_impairS2">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_impairS2">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tr_pair">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
         <a href="apropos.html">À propos</a>
     </footer>

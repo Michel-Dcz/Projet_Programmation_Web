@@ -2,11 +2,12 @@
 <html lang="fr"> <!-- Précision de la langue pour le navigateur-->
 
 <head> <!-- Entête du document HTML -->
-    <title>À propos</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
+    <title>Acceuil</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
     <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
     <link rel="stylesheet" href="../css/styles.css">
     <script type="text/javascript" src="../js/slideshow.js" defer></script>
     <script type="text/javascript" src="../js/chatbot.js" defer></script>
+    <script type="text/javascript" src="../js/animations.js" defer></script>
 </head><!-- Fin de la balise d'entête -->
 
 <body><!-- Début du code de la page web -->
@@ -22,17 +23,18 @@
 
     <section id="presentation">
         <h1>Présentation</h1>
+        <br>
         <p>Bienvenue sur la page dédiée aux étudiants du département. Notre département pilote les enseignements et les
-            projets liés aux sciences informatiques, offrant un cadre d’apprentissage dynamique, ancré dans l’innovation
+            projets liés aux sciences informatiques, offrant un cadre d'apprentissage dynamique, ancré dans l'innovation
             numérique et les défis technologiques de demain.</p>
-
+        <br>
         <h2>Notre Mission</h2>
-        <p>Notre mission est d’accompagner chaque étudiant dans la maîtrise des fondamentaux du code, de l'algorithmie
+        <p>Notre mission est d'accompagner chaque étudiant dans la maîtrise des fondamentaux du code, de l'algorithmie
             et de l'architecture des systèmes, tout en favorisant une ouverture constante vers les nouvelles
             technologies (IA, Cybersécurité, Cloud, etc.) et leurs applications concrètes en entreprise.<BR><BR>
 
-            Le département s’appuie sur une équipe pédagogique experte — composée d'enseignants-chercheurs et de
-            professionnels du secteur — pour offrir un suivi adapté aux évolutions rapides du marché de l'emploi. Nous
+            Le département s'appuie sur une équipe pédagogique experte, composée d'enseignants-chercheurs et de
+            professionnels du secteur, pour offrir un suivi adapté aux évolutions rapides du marché de l'emploi. Nous
             mettons également à votre disposition des ressources pédagogiques variées pour encourager l'apprentissage
             par la pratique et l'expérimentation.</p>
     </section>
@@ -42,26 +44,25 @@
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <img src="../media/Semestre_1.png" style="width:100%">
+            <a href="../html/cours.html#semestre_1"><img src="../media/Semestre_1.png" style="width:100%"></a>
         </div>
 
         <div class="mySlides fade">
-            <img src="../media/Semestre_2.png" style="width:100%">
+            <a href="../html/cours.html#semestre_2"><img src="../media/Semestre_2.png" style="width:100%"></a>
         </div>
 
         <div class="mySlides fade">
-            <img src="../media/Semestre_3.png" style="width:100%">
+            <a href="../html/cours.html#semestre_3"><img src="../media/Semestre_3.png" style="width:100%"></a>
         </div>
 
         <div class="mySlides fade">
-            <img src="../media/Semestre_4.png" style="width:100%">
+            <a href="../html/cours.html#semestre_4"><img src="../media/Semestre_4.png" style="width:100%"></a>
         </div>
 
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
 
     <!-- The dots/circles -->
     <div style="text-align:center" id="point">
@@ -70,6 +71,7 @@
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
     </div>
+    <br>
 
     <button id="chat-button" class="bouton-fixe"><img src="../media/Chat_bot.png" alt="chat_bot" width=125px></button>
     <div id="chat-sidebar" class="chat-sidebar">
