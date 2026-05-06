@@ -25,9 +25,12 @@ document.addEventListener('keydown', (event) => {
         div.appendChild(p);
         chatcontent.appendChild(div);
         input.value = '';
-        response(question);
+        setTimeout(() => {
+            response(question);
+        }, 1000);
+        
     }
-})
+});
 
 function response(input) {
     let div = document.createElement('div');
