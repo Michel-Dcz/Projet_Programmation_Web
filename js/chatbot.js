@@ -10,7 +10,8 @@ const input = document.querySelector('#user-input');
 const chatcontent = document.querySelector('.chat-content');
 
 // Configuration Groq API (gratuit, CORS natif)
-const GROQ_API_KEY = (window.GROQ_API_KEY || localStorage.getItem('GROQ_API_KEY') || '').trim();
+// ⚠️ CLÉ GROQ - à remplacer par ta clé (voir GROQ_API_KEY.txt à la racine)
+const GROQ_API_KEY = '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';
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 
