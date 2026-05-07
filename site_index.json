@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Accueil",
+    "url": "html/acceuil.html",
+    "snippet": "Page d'accueil avec présentation et liens rapides vers les cours et le planning"
+  },
+  {
+    "title": "À propos",
+    "url": "html/apropos.html",
+    "snippet": "Informations sur le département et les enseignants"
+  },
+  {
+    "title": "Cours - Semestre 1",
+    "url": "html/cours.html#semestre_1",
+    "snippet": "Liste des cours et PDF pour le Semestre 1"
+  },
+  {
+    "title": "Cours - Semestre 2",
+    "url": "html/cours.html#semestre_2",
+    "snippet": "Liste des cours et PDF pour le Semestre 2"
+  },
+  {
+    "title": "Cours - Semestre 3",
+    "url": "html/cours.html#semestre_3",
+    "snippet": "Liste des cours et PDF pour le Semestre 3"
+  },
+  {
+    "title": "Cours - Semestre 4",
+    "url": "html/cours.html#semestre_4",
+    "snippet": "Liste des cours et PDF pour le Semestre 4"
+  },
+  {
+    "title": "Équipe",
+    "url": "html/equipe.html",
+    "snippet": "Contact et informations sur l'équipe enseignante"
+  },
+  {
+    "title": "Planning",
+    "url": "html/planning.html",
+    "snippet": "Calendrier des cours et des examens"
+  }
+]

@@ -591,6 +591,7 @@ body.team-page #enseignants #impaire {
   max-width: 70%;
   margin-top: 10px;
   overflow: visible;
+  color: white;
 }
 
 .chat-content p {
