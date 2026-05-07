@@ -1,1 +1,3 @@
 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
+
+clé a generer car se supprime automatiquement lorsqu'elles sont publiées sur git
